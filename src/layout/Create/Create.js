@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./create.css";
 
-const { Transaction } = require("../../BlockChain");
-const { coin, privateKey, publicKey } = require("../../info");
+const { Transaction } = require("blockchain/BlockChain");
+const { coin, privateKey, publicKey } = require("blockchain/info");
 
 export default class Create extends Component {
   constructor(props) {

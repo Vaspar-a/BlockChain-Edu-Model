@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Table from "../../components/Table/Table";
 import "./pending.css";
 
-const {coin, publicKey} = require('../../info'); 
+const {coin, publicKey} = require('blockchain/info'); 
 
 export default class Pending extends Component {
     constructor(props) {

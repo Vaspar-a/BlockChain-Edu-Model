@@ -3,7 +3,7 @@ import Block from '../../components/Block/Block';
 import Table from '../../components/Table/Table';
 import "./home.css";
 
-const {coin, publicKey} = require('../../info'); 
+const {coin, publicKey} = require('blockchain/info'); 
 
 export default class Home extends Component {
     constructor(props) {
