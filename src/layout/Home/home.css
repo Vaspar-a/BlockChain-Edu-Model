@@ -1,0 +1,47 @@
+/* .whole-container {
+
+
+} */
+
+.blockchain-wrapper {
+    width: 90%;
+    height: 28rem;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+
+.blockchain-wrapper::-webkit-scrollbar {
+	width: 3px;
+	height: 2px;
+}
+
+.blockchain-wrapper::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+.blockchain-wrapper::-webkit-scrollbar-thumb {
+	background-color: #888;
+}
+
+.blockchain-wrapper::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+
+.blockchain {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-transaction {
+    padding: 20px;
+    font-size: 2.25rem;
+    padding-left: 5rem;
+}
+
+.balance {
+    font-size: 1.5rem;
+    padding: 10px;
+}

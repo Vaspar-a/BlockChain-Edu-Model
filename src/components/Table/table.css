@@ -1,0 +1,84 @@
+.table-container {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	height: 26rem;
+	max-height: 26rem;
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #888 #f1f1f1;
+}
+
+.table-container::-webkit-scrollbar {
+	width: 3px;
+	height: 2px;
+}
+
+.table-container::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+	background-color: #888;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+
+.table-container .table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.table-container .table .thead,
+    .table-container .table .tbody {
+	width: 100%;
+}
+
+.table-container .table .tbody {
+	height: max-content;
+	max-height: 23rem;
+}
+
+.table-container .table .body-cell,
+    .table-container .table .header-cell {
+	min-width: 12rem;
+	max-width: 12rem;
+	height: 1.875rem;
+	min-height: 1.875rem;
+	background-color: inherit;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.table-container .table .header-cell {
+	background-color: #02061a;
+	color: #faf4e2;
+}
+
+.table-container .table .body-cell {
+	padding: 5px;
+}
+
+.table-container .table .body-cell:focus {
+	background-color: rgba(137, 166, 228, 0.719);
+	transform: scale(1.05);
+}
+
+.tbody > tr:nth-of-type(odd) {
+	background-color: white;
+}
+
+.tbody > tr:nth-of-type(even) {
+	background-color: #f2f2f2;
+}
+
+.freeze-header-cell {
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}

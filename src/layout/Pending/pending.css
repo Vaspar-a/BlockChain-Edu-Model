@@ -1,0 +1,23 @@
+.whole-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.start-mining {
+    margin-top: 20px;
+    margin-left: 6rem;
+    padding: 10px 5px;
+    background-color: rgb(11, 117, 238);
+    color: white;
+    font-size: 1.25rem;
+    width: max-content;
+    /* outline: none; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-mining:focus {
+    border: 2px solid black;
+}
