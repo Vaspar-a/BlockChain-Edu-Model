@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Blockchain Model
 
 This project was referenced from Savjee Coin https://github.com/Savjee/SavjeeCoin
 
